@@ -103,6 +103,7 @@ We fine-tune our models using standard Hugging Face training code with the follo
 | Max length     | 512   |
  | Weight decay   | 0     |
 
+// This commit is already merged, no need to install the specific commit
 Given Hugging Face hasn't officially supported the LLaMA models, we fine-tuned LLaMA with Hugging Face's transformers library by installing it from a particular fork (i.e. this [PR](https://github.com/huggingface/transformers/pull/21955) to be merged).
 The hash of the specific commit we installed was `68d640f7c368bcaaaecfc678f11908ebbd3d6176`.
 
